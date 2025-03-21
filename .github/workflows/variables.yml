@@ -7,8 +7,6 @@ env:
 jobs: 
     say_hello:
         runs-on: ubuntu-latest
-        env: 
-            ENTREPRISE: Hetic
         steps: 
            - name: "Dit bonjour"
              if: ${{ env.NAME != 'Brendan'}}
